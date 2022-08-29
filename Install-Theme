@@ -1,4 +1,8 @@
-echo "This will install uwuntu stuff into your mint installation"
+#!/bin/bash
+echo "UwUntu Mint Theme 1.1"
+echo "NOW WITH ARCH LINUX INSTALL GUIDE"
+echo ""
+echo "This will install uwuntu stuff into your cinnamon desktop"
 echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
 echo ""
 read -p "Press enter to start installing UwUntu Mint Theme stuff"
