@@ -1,6 +1,6 @@
 # UwUntu-Mint-Theme
-Now supports Arch Linux
-- adds some UwUntu stuff into your Linux Mint installation
+- now supports Arch Linux
+- adds some UwUntu stuff into your Linux (Preferably Mint) installation
 - it downloads a git clone from https://github.com/Duxi4/UwUntu-Art
 # Requirements
 - Linux Mint themes (Specifically Mint-Y-Dark-Pink and DMZ-Black)
