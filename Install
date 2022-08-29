@@ -1,0 +1,18 @@
+echo "This will install uwuntu stuff into your mint installation"
+echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
+echo ""
+read -p "Press enter to start installing UwUntu Mint Theme stuff"
+echo "Downloading"
+cd /tmp
+git-force-clone https://github.com/Duxi4/UwUntu-Art /tmp/UwUntu-Art
+echo "Done trying to downloading git"
+echo "IF THIS FAILED THEN YOU ARE MISSING THE REQUIRED GIT DEPENDCIES"
+read -p "Press enter to continue"
+echo "Installing"
+/bin/cp -r ./UwUntu-Art/WallPapers ~/Pictures/UwUntu-Wallpapers
+echo "$HOME/Pictures/UwUntu-Wallpapers" >> ~/.cinnamon/backgrounds/user-folders.lst
+echo "Installation finished"
+echo "Cleaning up"
+rm -r -f /tmp/UwUntu-Art
+echo "You can run Apply Theme file to apply uwuntu theme with background"
+read -p "Press enter to exit installer"

@@ -1,0 +1,8 @@
+echo "Applying theme"
+gsettings set org.cinnamon.theme name "Mint-Y-Dark-Pink"
+gsettings set org.cinnamon.desktop.interface icon-theme "Mint-Y-Dark-Pink"
+gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Dark-Pink"
+gsettings set org.cinnamon.desktop.interface gtk-theme "Mint-Y-Dark-Pink"
+gsettings set org.cinnamon.desktop.interface cursor-theme "DMZ-Black"
+gsettings set org.cinnamon.desktop.background picture-uri "file:///$HOME/Pictures/UwUntu-Wallpapers/Wall16.jpg"
+read -p "Press enter to continue"
