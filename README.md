@@ -3,8 +3,8 @@
 - it downloads a git clone from https://github.com/Duxi4/UwUntu-Art
 - idk what license to use lol
 # Requirements
-- Linux Mint installation (Tested on 21)
-- must have git & git-extras packages installed (sudo apt install git git-extras)
+- Linux Mint themes (Specifically Mint-Y-Dark-Pink and DMZ-Black)
+- must have git & git-extras packages installed ("sudo apt install git git-extras" is the command to run if you dont)
 # Install script
 - does git clone on https://github.com/Duxi4/UwUntu-Art in /tmp/UwUntu-Art
 - copies wallpapers folder into $HOME/Pictures/UwUntu-Wallpapers
