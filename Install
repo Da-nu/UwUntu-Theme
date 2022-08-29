@@ -1,3 +1,4 @@
+!#/bin/bash
 echo "This will install uwuntu stuff into your mint installation"
 echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
 echo ""
