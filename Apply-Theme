@@ -1,4 +1,4 @@
-!#/bin/bash
+#1/bin/bash
 echo "Applying theme"
 gsettings set org.cinnamon.theme name "Mint-Y-Dark-Pink"
 gsettings set org.cinnamon.desktop.interface icon-theme "Mint-Y-Dark-Pink"
