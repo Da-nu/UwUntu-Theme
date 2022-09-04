@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "UwUntu Mint Theme 1.1"
-echo "NOW WITH ARCH LINUX INSTALL GUIDE"
+echo "UwUntu Mint Theme 1.2"
+echo "NOW WITH BETTER THEMES"
 echo ""
 echo "This will install uwuntu stuff into your cinnamon desktop"
 echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
@@ -9,14 +9,24 @@ read -p "Press enter to start installing UwUntu Mint Theme stuff"
 echo "Downloading"
 cd /tmp
 git-force-clone https://github.com/Duxi4/UwUntu-Art /tmp/UwUntu-Art
+git-force-clone https://github.com/vinceliuice/vimix-gtk-themes /tmp/vimix-gtk-themes
+git-force-clone https://github.com/darkomarko42/Marwaita-Icons /tmp/Marwaita-Icons
 echo "Done trying to downloading git"
 echo "IF THIS FAILED THEN YOU ARE MISSING THE REQUIRED GIT DEPENDCIES"
 read -p "Press enter to continue"
 echo "Installing"
+#repo 1
 /bin/cp -r ./UwUntu-Art/WallPapers ~/Pictures/UwUntu-Wallpapers
 echo "$HOME/Pictures/UwUntu-Wallpapers" >> ~/.cinnamon/backgrounds/user-folders.lst
+#repo 2
+/tmp/vimix-gtk-themes/install.sh -a
+#repo 3
+/bin/cp -r ./Marwaita-Icons/Marwaita ~/.icons/Marwaita
+/bin/cp -r ./Marwaita-Icons/Marwaita-Dark ~/.icons/Marwaita-Dark
 echo "Installation finished"
 echo "Cleaning up"
 rm -r -f /tmp/UwUntu-Art
+rm -r -f /tmp/vimix-gtk-themes
+rm -r -f /tmp/Marwaita-Icons
 echo "You can run Apply Theme file to apply uwuntu theme with background"
 read -p "Press enter to exit installer"

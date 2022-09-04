@@ -1,0 +1,13 @@
+#1/bin/bash
+echo "Applying theme"
+# Panel
+gsettings set org.cinnamon.theme name "vimix-dark-ruby"
+# Icons
+gsettings set org.cinnamon.desktop.interface icon-theme "Marwaita-Dark"
+# Misc
+gsettings set org.cinnamon.desktop.wm.preferences theme "vimix-dark-beryl"
+gsettings set org.cinnamon.desktop.interface gtk-theme "vimix-dark-beryl"
+# Cursor
+gsettings set org.cinnamon.desktop.interface cursor-theme "Marwaita"
+gsettings set org.cinnamon.desktop.background picture-uri "file:///$HOME/Pictures/UwUntu-Wallpapers/Wall16.jpg"
+read -p "Press enter to continue"
