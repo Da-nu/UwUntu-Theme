@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 echo "Applying theme"
 # Panel
 gsettings set org.cinnamon.theme name "vimix-dark-ruby" #looks closer to uwuntu panel
