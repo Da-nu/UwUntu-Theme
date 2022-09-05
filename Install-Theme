@@ -10,7 +10,7 @@ fi
 desktop=${desktop,,}  # convert to lower case
 
 echo "UwUntu Mint Theme 1.2"
-echo "NOW WITH BETTER THEMES"
+echo "NOW SUPPORTS MULTIPLE DESKTOP ENVIRONMENTS"
 echo ""
 echo "This will install uwuntu stuff into your (preferably cinnamon) desktop"
 echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
