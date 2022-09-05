@@ -1,4 +1,4 @@
-# UwUntu-Mint-Theme
+# UwUntu-Theme
 - now supports multiple desktop environments
 - adds some UwUntu stuff into your desktop environment (preferably cinnamnon)
 - it downloads a git clone from https://github.com/Duxi4/UwUntu-Art , https://github.com/vinceliuice/vimix-gtk-themes , and https://github.com/darkomarko42/Marwaita-Icons
