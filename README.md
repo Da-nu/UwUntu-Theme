@@ -1,27 +1,29 @@
 # UwUntu-Mint-Theme
-- now supports Arch Linux
-- adds some UwUntu stuff into your Linux (Preferably Mint) installation
-- it downloads a git clone from https://github.com/Duxi4/UwUntu-Art
+- now supports multiple desktop environments
+- adds some UwUntu stuff into your desktop environment (preferably cinnamnon)
+- it downloads a git clone from https://github.com/Duxi4/UwUntu-Art , https://github.com/vinceliuice/vimix-gtk-themes , and https://github.com/darkomarko42/Marwaita-Icons
 # Requirements
-- Linux Mint themes (Specifically Mint-Y-Dark-Pink and DMZ-Black)
 - must have git & git-extras packages installed
 # Getting dependencies on Mint Ubuntu/Debian
 - sudo apt install git git-extras
 # Getting dependencies on Arch Linux
 - pacman -S cinnamon git
-- https://aur.archlinux.org/packages/mint-y-icons
-- https://aur.archlinux.org/packages/mint-themes
-- https://aur.archlinux.org/packages/xcursor-dmz
 - https://aur.archlinux.org/packages/git-extras
 # Install script
+- installs vimix and marwaita themes
 - does git clone on https://github.com/Duxi4/UwUntu-Art in /tmp/UwUntu-Art
+- does git clone on https://github.com/vinceliuice/vimix-gtk-themes in /tmp/vimix-gtk-themes
+- does git clone on https://github.com/darkomarko42/Marwaita-Icons in /tmp/Marwaita-Icons
+- runs "install.sh -a" in vimix-gtk-themes
+- copies over marwaita and marwaita-dark icon themes
 - copies wallpapers folder into $HOME/Pictures/UwUntu-Wallpapers
-- adds an entry is cinnamon backgrounds thing
+- adds an entry in cinnamon backgrounds thing
 # Apply Theme Script
-- Applies Mint-Y-Dark-Pink theme
-- Applies DMZ-Black cursor
+- Aplies a mix of vimix and marwaita themes just like uwuntu
 - Applies Wall16.jpg from $HOME/Pictures/UwUntu-Wallpapers as current wallpaper
 # Todo
-- add more stuff
+- make installing dependecies easier 
 # Thanks to
 - Duxi4 (https://github.com/Duxi4) | making UwUntu art repo
+- vinceliuice (https://github.com/vinceliuice) | making vimix gtk theme
+- darkomarko42 (https://github.com/darkomarko42) | making marwaita icons
