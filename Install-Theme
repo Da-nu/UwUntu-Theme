@@ -1,4 +1,14 @@
 #!/bin/bash
+# do some hacky stuff
+if [ "$XDG_CURRENT_DESKTOP" = "" ]
+then
+  desktop=$(echo "$XDG_DATA_DIRS" | sed 's/.*\(xfce\|kde\|gnome\).*/\1/')
+else
+  desktop=$XDG_CURRENT_DESKTOP
+fi
+
+desktop=${desktop,,}  # convert to lower case
+
 echo "UwUntu Mint Theme 1.2"
 echo "NOW WITH BETTER THEMES"
 echo ""
@@ -17,7 +27,10 @@ read -p "Press enter to continue"
 echo "Installing"
 #repo 1
 /bin/cp -r ./UwUntu-Art/WallPapers ~/Pictures/UwUntu-Wallpapers
+if [ "$desktop" = "x-cinnamon" ]
+then
 echo "$HOME/Pictures/UwUntu-Wallpapers" >> ~/.cinnamon/backgrounds/user-folders.lst
+fi
 #repo 2
 /tmp/vimix-gtk-themes/install.sh -a
 #repo 3
