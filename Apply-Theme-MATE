@@ -1,0 +1,9 @@
+#1/bin/bash
+echo "Applying theme"
+# GTK
+gsettings set org.mate.interface gtk-theme "vimix-dark-ruby"
+# Icons
+gsettings set org.mate.interface icon-theme "Marwaita-Dark"
+# Wallpaper
+gsettings set org.mate.background picture-filename "file:///$HOME/Pictures/UwUntu-Wallpapers/Wall16.jpg"
+read -p "Press enter to continue"

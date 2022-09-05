@@ -12,7 +12,7 @@ desktop=${desktop,,}  # convert to lower case
 echo "UwUntu Mint Theme 1.2"
 echo "NOW WITH BETTER THEMES"
 echo ""
-echo "This will install uwuntu stuff into your cinnamon desktop"
+echo "This will install uwuntu stuff into your (preferably cinnamon) desktop"
 echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
 echo ""
 read -p "Press enter to start installing UwUntu Mint Theme stuff"

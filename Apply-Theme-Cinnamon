@@ -1,7 +1,7 @@
 #1/bin/bash
 echo "Applying theme"
 # Panel
-gsettings set org.cinnamon.theme name "vimix-dark-ruby"
+gsettings set org.cinnamon.theme name "vimix-dark-ruby" #looks closer to uwuntu panel
 # Icons
 gsettings set org.cinnamon.desktop.interface icon-theme "Marwaita-Dark"
 # Misc
