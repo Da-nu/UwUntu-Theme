@@ -15,7 +15,7 @@ echo ""
 echo "This will install uwuntu stuff into your (preferably cinnamon) desktop"
 echo "THIS REQUIRES git AND git-extras PACKAGES TO BE INSTALLED"
 echo ""
-read -p "Press enter to start installing UwUntu Mint Theme stuff"
+read -p "Press enter to start installing UwUntu Theme stuff"
 echo "Downloading"
 cd /tmp
 git-force-clone https://github.com/Duxi4/UwUntu-Art /tmp/UwUntu-Art
@@ -41,5 +41,5 @@ echo "Cleaning up"
 rm -r -f /tmp/UwUntu-Art
 rm -r -f /tmp/vimix-gtk-themes
 rm -r -f /tmp/Marwaita-Icons
-echo "You can run Apply Theme file to apply uwuntu theme with background"
+echo "You can run Apply Theme files to apply uwuntu theme with background"
 read -p "Press enter to exit installer"
